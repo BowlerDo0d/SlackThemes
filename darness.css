@@ -971,12 +971,16 @@ ts-jumper ts-jumper-container {
   background: var(--background);
 }
 
-.c-message__content .c-message__content_header .c-message__sender,
-.c-message__content .c-message__content_header .c-message__sender .c-message__sender_link,
-.c-message__content .c-message__body {
+.c-virtual_list__scroll_container .c-message--hover {
+  background: var(--background-elevated);
+}
+
+.c-message .c-message__content .c-message__content_header .c-message__sender,
+.c-message .c-message__content .c-message__content_header .c-message__sender .c-message__sender_link,
+.c-message .c-message__content .c-message__body {
   color: var(--text);
 }
 
-/* .c-message__content .c-message__content_header .c-timestamp .c-timestamp__label {
-  color:
-} */
+.c-message .c-message__gutter .c-message__avatar .c-avatar__image {
+  opacity: 0.25;
+}
