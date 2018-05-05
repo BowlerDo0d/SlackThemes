@@ -971,7 +971,7 @@ ts-jumper ts-jumper-container {
   background: var(--background);
 }
 
-.c-message__content .c-message__content_header .c_message__sender,
+.c-message__content .c-message__content_header .c-message__sender,
 .c-message__content .c-message__body {
   color: var(--text);
 }
