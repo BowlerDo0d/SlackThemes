@@ -972,6 +972,7 @@ ts-jumper ts-jumper-container {
 }
 
 .c-message__content .c-message__content_header .c-message__sender,
+.c-message__content .c-message__content_header .c-message__sender_link,
 .c-message__content .c-message__body {
   color: var(--text);
 }
