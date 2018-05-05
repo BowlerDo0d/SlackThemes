@@ -970,3 +970,12 @@ ts-jumper ts-jumper-container {
 .c-virtual_list__scroll_container {
   background: var(--background);
 }
+
+.c-message__content .c-message__content_header .c_message__sender,
+.c-message__content .c-message__body {
+  color: var(--text);
+}
+
+/* .c-message__content .c-message__content_header .c-timestamp .c-timestamp__label {
+  color:
+} */
