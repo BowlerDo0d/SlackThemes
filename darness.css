@@ -981,6 +981,11 @@ ts-jumper ts-jumper-container {
   border-color: var(--background-elevated-extra);
 }
 
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+  border-color: var(--background-elevated-extra);
+}
+
 .c-virtual_list__scroll_container .c-message--hover {
   background: var(--background-elevated) !important;
 }
